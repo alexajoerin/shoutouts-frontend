@@ -1,0 +1,4 @@
+.ShoutoutForm {
+  display: flex;
+  flex-direction: column;
+}
