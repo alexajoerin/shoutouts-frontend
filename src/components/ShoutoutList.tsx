@@ -1,13 +1,6 @@
-import { useEffect, useState } from "react";
 import Shoutout from "../models/Shoutout";
 import "./ShoutoutList.css";
 import ShoutoutCard from "./ShoutoutCard";
-import {
-  addShoutout,
-  deleteShoutout,
-  getAllShoutouts,
-} from "../services/shoutoutService";
-import ShoutoutForm from "./ShoutoutForm";
 
 interface Props {
   shoutouts: Shoutout[];

@@ -1,6 +1,5 @@
 import "./App.css";
 import HomeRoute from "./components/HomeRoute";
-import ShoutoutList from "./components/ShoutoutList";
 import {
   BrowserRouter as Router,
   Navigate,
